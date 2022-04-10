@@ -13,7 +13,7 @@ const addUSer = (userId, socketId) => {
     users.push({ userId, socketId });   
 }
 
-// удаление курьера из массива если он не в сети
+// удаление курьера из массива если он не в сетn
 
 const removerUser = (socketId) => {
   users = users.filter(user => user.socketId !== socketId)
